@@ -12,8 +12,10 @@ function Calculator() {
     const updatedData = calculate(calculatorData, buttonLabel);
     setCalculatorData(updatedData);
 
-    if (buttonLabel === 'AC' || buttonLabel === '=' || buttonLabel === '+/-') {
+    if (buttonLabel === 'AC' || buttonLabel === '=') {
       setOutput(updatedData.total || '');
+    } else if (buttonLabel === '+/-') {
+      setOutput(updatedData.next || '');
     } else {
       setOutput((prevOutput) => prevOutput + buttonLabel);
     }
