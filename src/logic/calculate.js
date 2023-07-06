@@ -1,3 +1,4 @@
+// calculate.js
 import operate from './operate';
 
 function isNumber(item) {
@@ -105,7 +106,7 @@ export default function calculate(obj, buttonName) {
     if (obj.total && !obj.next) {
       return { ...obj, operation: buttonName };
     }
-    
+
     if (!obj.total) {
       return { total: 0, operation: buttonName };
     }

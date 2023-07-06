@@ -4,13 +4,6 @@ button {
   font-size: 0.5em;
 }
 
-.output-field {
-  width: 100%;
-  background-color: rgba(189, 184, 184, 0.9);
-  border: none;
-  text-align: right;
-}
-
 .zero {
   width: 50%;
 }
