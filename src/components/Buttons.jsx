@@ -1,20 +1,23 @@
 // Buttons.js
+import React from 'react';
+import PropTypes from 'prop-types';
 import './Buttons.css';
 
-function Buttons(prop) {
-  const { labels } = prop;
-  const keyCounter = 0;
+function Buttons(props) {
+  const { labels, onButtonClick } = props;
+
+  const handleClick = (label) => {
+    onButtonClick(label);
+  };
 
   return (
     <div className="button-container">
       {labels.map((label) => {
-        const uniqueKey = `button-${keyCounter + 1}`;
+        const uniqueKey = `button-${label}`;
         let buttonClass = '';
-        if (label === 'O/p') {
-          buttonClass = 'output-field';
-        } else if (label === '0') {
+        if (label === '0') {
           buttonClass = 'zero';
-        } else if (label === '/') {
+        } else if (label === '÷') {
           buttonClass = 'oper-right';
         } else if (label === 'x') {
           buttonClass = 'oper-right';
@@ -32,6 +35,7 @@ function Buttons(prop) {
             key={uniqueKey}
             type="button"
             className={buttonClass}
+            onClick={() => handleClick(label)}
           >
             {label}
           </button>
@@ -40,5 +44,10 @@ function Buttons(prop) {
     </div>
   );
 }
+
+Buttons.propTypes = {
+  labels: PropTypes.arrayOf(PropTypes.string).isRequired,
+  onButtonClick: PropTypes.func.isRequired,
+};
 
 export default Buttons;
