@@ -7,7 +7,6 @@
 - [📖 About the Project](#about-project)
 - [🛠 Tech Stack](#tech-stack)
 - [Key Features](#key-features)
-- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -25,20 +24,14 @@
 
 # 📖 Math Magician <a name="about-project"></a>
 
-> React project - 
-> using react framework and ES6 features.
+> This a math magicians app built with HTML, CSS, REACT in this app you can make some calculations math like the addition and division..etc, also I used the external API to fetch some quotes for the app using the use effect hook.
 
 ### 🛠 Tech Stack <a name="tech-stack"></a>
 
->- HTML
->- CSS
->- JavaScript ES6
->- NodeJS
-
 <details>
-  <summary>HTML</summary>
+  <summary>React</summary>
   <ul>
-    <li><a href="https://html.com/#What_is_HTML">index.html</a></li>
+    <li><a href="https://html.com/css/#What_is_CSS">reactjs.org</a></li>
   </ul>
 </details>
 
@@ -68,19 +61,13 @@
 
 ### Key Features <a name="key-features"></a>
 
->- Project using [React](https://react.dev/learn) framework
->- [No linter errors](https://github.com/microverseinc/linters-config/tree/master/react-redux)
->- Use of correct [Gitflow](https://github.com/microverseinc/linters-config)
+>- I added the functionality for this app👍.
+>- I used React components, props, state.
+>- I used the basic css style for styling the components.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> - [Live Demo Link](https://github.com/anita00001/math_magicians/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
