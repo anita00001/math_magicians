@@ -1,7 +1,7 @@
 // Buttons.js
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Buttons.css';
+import '../styles/Buttons.css';
 
 function Buttons(props) {
   const { labels, onButtonClick } = props;
