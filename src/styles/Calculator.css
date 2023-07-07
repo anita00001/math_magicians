@@ -1,0 +1,11 @@
+.calc-container {
+  width: 30%;
+}
+
+.output-field {
+  width: 98.5%;
+  height: 2.25rem;
+  background-color: rgba(189, 184, 184, 0.9);
+  border: none;
+  text-align: right;
+}
