@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family: Pacifico;
+  font-family: 'sans-serif', Pacifico;
   color: #5a4e4e;
   background-color: #efe8e8;
   border-radius: 2em;
@@ -36,6 +36,7 @@
   0% {
     transform: translateX(-100%);
   }
+
   100% {
     transform: translateX(100%);
   }
@@ -52,9 +53,11 @@
   0% {
     opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
