@@ -1,0 +1,27 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  display: flex;
+  gap: 1em;
+}
+
+.nav-link li {
+  list-style: none;
+}
+
+.nav-link li:nth-child(2) {
+  padding: 0 0.5em;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}

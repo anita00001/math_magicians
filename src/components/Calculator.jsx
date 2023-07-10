@@ -22,26 +22,28 @@ function Calculator() {
   };
 
   return (
-    <div className="calc-container">
-      <form>
-        <input
-          type="text"
-          className="output-field"
-          readOnly
-          placeholder="0"
-          value={output}
+    <div className="calc-wrapper">
+      <div className="calc-container">
+        <form>
+          <input
+            type="text"
+            className="output-field"
+            readOnly
+            placeholder="0"
+            value={output}
+          />
+        </form>
+        <Buttons
+          labels={[
+            'AC', '+/-', '%', '÷',
+            '7', '8', '9', 'x',
+            '4', '5', '6', '-',
+            '1', '2', '3', '+',
+            '0', '.', '=',
+          ]}
+          onButtonClick={handleButtonClick}
         />
-      </form>
-      <Buttons
-        labels={[
-          'AC', '+/-', '%', '÷',
-          '7', '8', '9', 'x',
-          '4', '5', '6', '-',
-          '1', '2', '3', '+',
-          '0', '.', '=',
-        ]}
-        onButtonClick={handleButtonClick}
-      />
+      </div>
     </div>
   );
 }
