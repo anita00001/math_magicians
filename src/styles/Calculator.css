@@ -1,14 +1,17 @@
-.calc-wrapper {
+.calculator-page-container {
+  width: 100%;
+  margin-top: 15vh;
+  padding: 1em;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .calc-container {
-  width: 30%;
+  width: 40vw;
 }
 
 .output-field {
-  width: 98.5%;
+  width: 99%;
   height: 2.25rem;
   background-color: rgba(189, 184, 184, 0.9);
   border: none;

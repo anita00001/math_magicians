@@ -1,7 +1,7 @@
-// import NavBar from '../components/NavBar';
+import '../styles/Home.css';
 
 const Home = () => (
-  <div>
+  <div className="home-container">
     <h1>Welcome to our page!</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
