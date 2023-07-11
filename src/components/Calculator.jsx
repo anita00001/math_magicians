@@ -23,6 +23,7 @@ function Calculator() {
 
   return (
     <div className="calc-wrapper">
+      <p>Let&lsquo;s do some Maths!</p>
       <div className="calc-container">
         <form>
           <input
