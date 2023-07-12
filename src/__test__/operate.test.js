@@ -15,4 +15,14 @@ describe('Operate fucntion test', () => {
     expect(operate('2', '4', 'x')).toBe('8');
     expect(operate('10', '5', 'x')).not.toBe('51');
   });
+
+  it('divide First Number with Second Number', () => {
+    expect(operate('20', '10', '÷')).toBe('2');
+    expect(operate('0.5', '1.2', '÷')).not.toBe('1.7');
+  });
+
+  it('Multiply First Number with Second Number', () => {
+    expect(operate('20', '10', '%')).toBe('0');
+    expect(operate('4', '3', '%')).not.toBe('1');
+  });
 });
