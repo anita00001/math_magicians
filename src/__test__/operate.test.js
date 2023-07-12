@@ -21,8 +21,8 @@ describe('Operate fucntion test', () => {
     expect(operate('0.5', '1.2', '÷')).not.toBe('1.7');
   });
 
-  it('Multiply First Number with Second Number', () => {
+  it('Modolus First Number with Second Number', () => {
     expect(operate('20', '10', '%')).toBe('0');
-    expect(operate('4', '3', '%')).not.toBe('1');
+    expect(operate('4', '3', '%')).toBe('1');
   });
 });
