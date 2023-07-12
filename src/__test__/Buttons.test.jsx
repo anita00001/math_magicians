@@ -1,5 +1,4 @@
 import React from 'react';
-// import { render, fireEvent } from '@testing-library/react';
 import { fireEvent, render } from '@testing-library/react';
 import Buttons from '../components/Buttons';
 
@@ -21,7 +20,7 @@ describe('Buttons', () => {
   });
 
   test('Call onButtonClick correctly when a button is clicked', () => {
-    const {getByText} = render(
+    const { getByText } = render(
       <Buttons labels={labels} onButtonClick={mockButtonClick} />,
     );
     fireEvent.click(getByText('1'));
