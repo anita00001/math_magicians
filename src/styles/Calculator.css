@@ -1,13 +1,26 @@
-.calculator-page-container {
-  width: 100%;
+.calc-wrapper {
   margin-top: 15vh;
-  padding: 1em;
   display: flex;
   justify-content: space-between;
 }
 
+.calc-wrapper p {
+  font-size: 1.5rem;
+  color: #5a4e4e;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Pacifico', sans-serif;
+  text-shadow: 1px 1px 1px black;
+  text-decoration: underline overline;
+  text-decoration-color: #5a4e4e;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.2em;
+  text-decoration-skip-ink: none;
+}
+
 .calc-container {
-  width: 40vw;
+  width: 45%;
 }
 
 .output-field {

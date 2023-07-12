@@ -26,32 +26,26 @@
 }
 
 .loading {
-  font-size: 1.2em;
+  font-size: 2em;
   font-weight: 700;
-  color: #71e31ae4;
+  margin-top: 15vh;
+  text-align: center;
+  color: green;
   white-space: nowrap;
   overflow: hidden;
-  animation: scrollText 5s linear infinite;
-}
-
-@keyframes scrollText {
-  0% {
-    transform: translateX(-100%);
-  }
-
-  100% {
-    transform: translateX(100%);
-  }
+  animation: blink 1s linear infinite;
 }
 
 .error {
   font-size: 1.2em;
+  margin-top: 15vh;
   font-weight: 700;
+  text-align: center;
   color: red;
-  animation: blinkError 1s linear infinite;
+  animation: blink 1s linear infinite;
 }
 
-@keyframes blinkError {
+@keyframes blink {
   0% {
     opacity: 1;
   }

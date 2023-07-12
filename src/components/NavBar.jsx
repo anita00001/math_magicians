@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../styles/NavBar.css';
 
 const links = [
@@ -9,11 +10,11 @@ const links = [
 const NavBar = () => (
   <header className="navbar-container">
     <nav className="nav-bar">
-      <h1>Math Magicians</h1>
+      <h1 className="logo"><Link to="/">Math Magicians</Link></h1>
       <ul className="nav-link">
         {links.map((link) => (
           <li key={link.text}>
-            <a href={link.path}>{link.text}</a>
+            <Link to={link.path}>{link.text}</Link>
           </li>
         ))}
       </ul>

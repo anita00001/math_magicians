@@ -11,6 +11,11 @@
   justify-content: space-between;
 }
 
+h1 :-webkit-any-link {
+  text-decoration: none;
+  color: rgb(132, 23, 23);
+}
+
 .nav-link {
   display: flex;
   gap: 1em;
