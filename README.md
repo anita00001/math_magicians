@@ -7,6 +7,7 @@
 - [📖 About the Project](#about-project)
 - [🛠 Tech Stack](#tech-stack)
 - [Key Features](#key-features)
+- [Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -68,6 +69,9 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
+## 💻 Live Demo <a name="live-demo"></a>
+
+> [Live Demo Link](https://math-magicians-8o2g.onrender.com/)
 
 <!-- GETTING STARTED -->
 
